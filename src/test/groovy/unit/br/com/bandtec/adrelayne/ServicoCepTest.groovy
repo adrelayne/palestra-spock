@@ -5,9 +5,9 @@ import br.com.bandtec.adrelayne.ServicoCep
 import spock.lang.Specification
 
 class ServicoCepTest extends Specification {
-
+	//Dizer ao groovy que a classe ClienteRestCep é um mock
     ClienteRestCep clienteRest = Mock()
-
+	
     def 'Deve retornar o logradouro encontrado'() {
         given:
         def logradouro = 'Rua da Abobrinha'

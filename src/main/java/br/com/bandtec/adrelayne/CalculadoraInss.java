@@ -12,10 +12,13 @@ public class CalculadoraInss {
     }
 
     public double getDesconto() {
-        if (this.salarioBase <= 1000) {
+        if (this.salarioBase <= 1700) {
             return this.salarioBase * 0.08;
-        } else {
-            return this.salarioBase * 0.11;
+        } else if (this.salarioBase > 1700 && this.salarioBase <= 1850){
+            return this.salarioBase * 0.09;
         }
+		else if (this.salarioBase > 1850 && this.salarioBase <= 5700){
+			 return this.salarioBase * 0.11;
+		}
     }
 }

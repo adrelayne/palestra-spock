@@ -4,7 +4,7 @@ import br.com.bandtec.adrelayne.ClienteRestCep
 import br.com.bandtec.adrelayne.ServicoCep
 import spock.lang.Specification
 
-class ServicoCepTest extends Specification{
+class ServicoCepTest extends Specification {
 
     ClienteRestCep clienteRest = Mock()
 

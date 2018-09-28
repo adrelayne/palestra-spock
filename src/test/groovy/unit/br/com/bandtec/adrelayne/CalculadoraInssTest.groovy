@@ -5,6 +5,7 @@ import spock.lang.Specification
 
 
 class CalculadoraInssTest extends Specification {
+
 	//teste com 8%
     def 'Salário de R$900,00 paga 8%'(){
         //Em outras ferramentas, usa-se o padrão 'given-when-then', 

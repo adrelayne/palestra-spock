@@ -21,6 +21,7 @@ class DemonstracaoGroovy { //Toda classe e método são, por padrão públicos
 		//Recuperação de item de mapa é mais sucinta em Groovy
         println("Capital de São Paulo: ${capitais.SP}")
 
+        println("Digite uma palavra: ")
         def palavra = new Scanner(System.in).next()
 		
 		//comparar conteudo usando '==' ao invés de .equals()

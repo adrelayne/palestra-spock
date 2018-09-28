@@ -11,7 +11,12 @@ class ServicoCepTest extends Specification {
     def 'Deve retornar o logradouro encontrado'() {
         given:
         def logradouro = 'Rua da Abobrinha'
+
+        // Configuração do mock
+        // Ensinando como o método getLogradouro() deve se comportar
         clienteRest.getLogradouro(_) >> logradouro
+
+        // colocando o objeto mock numa instância de ServicoCep
         def servico = new ServicoCep(cliente: clienteRest)
 
         when:

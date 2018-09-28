@@ -7,10 +7,16 @@ public class ServicoCep {
 
     public String pesquisaLogradouro(String cep) {
         try {
+            // se achar um logradouro para o cep informado
             return cliente.getLogradouro(cep);
-        } catch (IllegalArgumentException e) {
+        }
+        catch (IllegalArgumentException e) {
+
             return "Cep inválido ou inexistente";
-        } catch (IllegalStateException e) {
+
+        }
+        catch (IllegalStateException e) {
+
             return "Falha de internet ou serviço indisponível";
         }
     }

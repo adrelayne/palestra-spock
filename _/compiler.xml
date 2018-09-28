@@ -9,5 +9,8 @@
         <module name="adrelayne" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adrelayne" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

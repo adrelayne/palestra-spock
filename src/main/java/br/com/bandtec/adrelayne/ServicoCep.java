@@ -17,7 +17,7 @@ public class ServicoCep {
         }
         catch (IllegalStateException e) {
 
-            return "Falha de internet ou serviço indisponível";
+            return null;//"Falha de internet ou serviço indisponível";
         }
     }
 }

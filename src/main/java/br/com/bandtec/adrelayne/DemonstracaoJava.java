@@ -1,10 +1,16 @@
 package br.com.bandtec.adrelayne;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
 
 public class DemonstracaoJava {
     public static void main(String[] args) {
-		String bairro = "";
+		String bairro = "Consolação";
 		
 		System.out.println("O bairro "+ bairro + "é mó dahora!");
 		
